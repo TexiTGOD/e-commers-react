@@ -1,0 +1,13 @@
+.containerNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  height: 80px;
+}
+.containerLi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 35px;
+}
