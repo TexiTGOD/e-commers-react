@@ -6,7 +6,7 @@ import ProductCard from "./Components/ProductCard/ProductCard";
 
 function App() {
   const onAdd = (cantidad) => {
-    console.log(`se agrego ${cantidad} Productos`);
+    console.log(`se agrego ${cantidad} elementos`);
   };
   const stock = 5;
   const initial = 1;
