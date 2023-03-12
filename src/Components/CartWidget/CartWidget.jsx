@@ -1,10 +1,19 @@
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { Link } from "react-router-dom";
+
 const CartWidget = () => {
   return (
-    <div>
-      <span></span>
-      <ShoppingCartIcon />
-    </div>
+    <Link to="/cart">
+      <div>
+        <span>0</span>
+
+        <ShoppingCartIcon
+          sx={{
+            color: "#332B47",
+          }}
+        />
+      </div>
+    </Link>
   );
 };
 
